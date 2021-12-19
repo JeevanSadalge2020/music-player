@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/single-playlist.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div id="main-container">
+        <header>
+            <nav id="nav">
+                <div id="nav-left">
+                    <a class="logo" href="./index.html">
+                        <i class="fab fa-spotify"></i>
+                        <h5>Ninja <br> Studio</h5>
+                    </a>
+                    <a class="fav">Favorites</a>
+                </div>
+                <div id="nav-right">
+                    <div class="search-section">
+                        <div>
+                            <i class="fas fa-search"></i>
+                            <input type="search" name="music" id="music" placeholder="Search">
+                        </div>
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <a class="fas fa-bell fa-2x bell"></a>
+                    <a href="">
+                        <img src="./images/headphone.jpg" alt="">
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <section id="main-body-content">
+                <div class="artist-profile-container">
+                    <figure class="artist-profile__image">
+                        <img src="./images/girl-singing.jpg" alt="" srcset="">
+                    </figure>
+                    <div class="artist-profile__content">
+                        <h4>ColdPlay</h4>
+                        <span>Singer | Composer</span>
+                        <span>50 Songs</span>
+                        <span>500 Followers</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nam! Quam fugiat ut autem
+                            doloribus nulla perspiciatis optio assumenda iure repellendus ratione, accusantium officiis
+                            labore non qu</p>
+                        <div class="artist-profile__btns">
+                            <button class="btn-grad btn">Play All</button>
+                            <button class="btn">Follow</button>
+                            <a class="fa fa-plus fa-2x add-to-fav"></a>
+                        </div>
+                        <span>247 Songs | 125 Albums</span>
+                    </div>
+                </div>
+                <ul class="artists-songs">
+                    <li class=" artists-song aside-body__card">
+                        <div class="aside-body__card__left">
+                            <span>01</span>
+                            <a href="./songs/Raanjhanaa.mp3"><img src="./images/ddlj.jpg" alt="Song"></a>
+                            <div>
+                                <h6>Tuze Dekha Toh</h6>
+                                <small>DDLJ</small>
+                            </div>
+                        </div>
+                        <span class="aside-body__card__right">
+                            <i class="far fa-heart"></i>
+                            <i class="fa fa-plus"></i>
+                        </span>
+                    </li>
+                    <li class=" artists-song aside-body__card">
+                        <div class="aside-body__card__left">
+                            <span>02</span>
+                            <a href="./songs/Raanjhanaa.mp3"><img src="./images/krish.jpg" alt="Song"></a>
+                            <div>
+                                <h6>Raghupati Raghav</h6>
+                                <small>Krish</small>
+                            </div>
+                        </div>
+                        <span class="aside-body__card__right">
+                            <i class="far fa-heart"></i>
+                            <i class="fa fa-plus"></i>
+                        </span>
+                    </li>
+                    <li class=" artists-song aside-body__card">
+                        <div class="aside-body__card__left">
+                            <span>03</span>
+                            <a href="./songs/Raanjhanaa.mp3"><img src="./images/tune-mary-entry.jpg" alt="Song"></a>
+                            <div>
+                                <h6>Tune Mari Entry</h6>
+                                <small>Gunday</small>
+                            </div>
+                        </div>
+                        <span class="aside-body__card__right">
+                            <i class="far fa-heart"></i>
+                            <i class="fa fa-plus"></i>
+                        </span>
+                    </li>
+                    <li class=" artists-song aside-body__card">
+                        <div class="aside-body__card__left">
+                            <span>04</span>
+                            <a><img src="./images/ddlj.jpg" alt="Song"></a>
+                            <div>
+                                <h6>Tuze Dekha Toh</h6>
+                                <small>DDLJ</small>
+                            </div>
+                        </div>
+                        <span class="aside-body__card__right">
+                            <i class="far fa-heart"></i>
+                            <i class="fa fa-plus"></i>
+                        </span>
+                    </li>
+                    <li class=" artists-song aside-body__card">
+                        <div class="aside-body__card__left">
+                            <span>05</span>
+                            <a href="./songs/Raanjhanaa.mp3"><img src="./images/krish.jpg" alt="Song"></a>
+                            <div>
+                                <h6>Raghupati Raghav</h6>
+                                <small>Krish</small>
+                            </div>
+                        </div>
+                        <span class="aside-body__card__right">
+                            <i class="far fa-heart"></i>
+                            <i class="fa fa-plus"></i>
+                        </span>
+                    </li>
+                    <li class=" artists-song aside-body__card">
+                        <div class="aside-body__card__left">
+                            <span>06</span>
+                            <a href="./songs/Raanjhanaa.mp3"><img src="./images/tune-mary-entry.jpg" alt="Song"></a>
+                            <div>
+                                <h6>Tune Mari Entry</h6>
+                                <small>Gunday</small>
+                            </div>
+                        </div>
+                        <span class="aside-body__card__right">
+                            <i class="far fa-heart"></i>
+                            <i class="fa fa-plus"></i>
+                        </span>
+                    </li>
+
+                </ul>
+            </section>
+        </main>
+        <aside class="container">
+            <section id="aside-header">
+                <h5>Similar Artists</h5>
+                <small>View All</small>
+            </section>
+            <ul class="aside-body">
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>01</span>
+                        <a href="./single-playlist.html"><img src="./images/singer-4.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Sonu Nigam</h6>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>02</span>
+                        <a href="./single-playlist.html"><img src="./images/singer-1.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Atif Aslam</h6>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>03</span>
+                        <a href="./single-playlist.html"><img src="./images/singer-2.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Arijit Singh</h6>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>04</span>
+                        <a href="./single-playlist.html"><img src="./images/singer-3.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Benny Dayal</h6>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>05</span>
+                        <a href="./single-playlist.html"><img src="./images/lady-singer-2.jpg" alt="S</a>ong">
+                            <div>
+                                <h6>Neha Kakkar</h6>
+                            </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+            </ul>
+        </aside>
+        <footer class="center">
+            <figure>
+                <div class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>01</span>
+                        <img src="./images/ranzana.jpg" alt="Song">
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </div>
+                <audio controls src="./songs/Raanjhanaa.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </figure>
+        </footer>
+    </div>
+</body>
+</html>

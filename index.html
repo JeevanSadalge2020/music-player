@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div id="main-container">
+        <header>
+            <nav id="nav">
+                <div id="nav-left">
+                    <a class="logo" href="#">
+                        <i class="fab fa-spotify"></i>
+                        <h5>Ninja <br> Studio</h5>
+                    </a>
+                    <a class="fav">Favorites</a>
+                </div>
+                <div id="nav-right">
+                    <div class="search-section">
+                        <div>
+                            <i class="fas fa-search"></i>
+                            <input type="search" name="music" id="music" placeholder="Search">
+                        </div>
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <a class="fas fa-bell fa-2x bell"></a>
+                    <a href="">
+                        <img src="./images/headphone.jpg" alt="">
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <section id="carousel">
+                <div class="slider">
+                    <ul class="slides">
+                        <li id="slide-one" class="center slide">
+                            <a class="carousel-playlist-name" href="./single-playlist.html">Hindi Top 50</a>
+                        </li>
+                        <li id="slide-two" class="center slide">
+                            <a class="carousel-playlist-name" href="./single-playlist.html">English Top 50</a>
+                        </li>
+                        <li id="slide-three" class="center slide">
+                            <a class="carousel-playlist-name" href="./single-playlist.html">Pop Top 50</a>
+                        </li>
+                        <li id="slide-four" class="center slide">
+                            <a class="carousel-playlist-name" href="./single-playlist.html">Retro Hindi Top 50</a>
+                        </li>
+                        <li id="slide-five" class="center slide">
+                            <a class="carousel-playlist-name" href="./single-playlist.html">Marathi Top 50</a>
+                        </li>
+                    </ul>
+                    <div class="slider-links">
+                        <a href="#slide-one" class="slider-nav-link">1</a>
+                        <a href="#slide-two" class="slider-nav-link">2</a>
+                        <a href="#slide-three" class="slider-nav-link">3</a>
+                        <a href="#slide-four" class="slider-nav-link">4</a>
+                        <a href="#slide-five" class="slider-nav-link">5</a>
+                    </div>
+                </div>
+                <div class="trending">
+                    <h5>Trending This Week</h5>
+                    <ul>
+                        <li><a href="./single-playlist.html">New Hindi Songs</a></li>
+                        <li><a href="./single-playlist.html">New English Songs</a></li>
+                        <li><a href="./single-playlist.html">Top 100 - Bollywood</a></li>
+                        <li><a href="./single-playlist.html">Top 100 - Hollywood</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="main-body-content">
+                <div id="latest-release">
+                    <h5 class="section-heading">Latest Release</h6>
+                        <ul class="latest-release-container">
+                            <li class="latest-release__card">
+                                <figure class="latest-release__card__left">
+                                    <a href="./single-playlist.html"><img src="./images/tune-mary-entry.jpg" alt=""></a>
+                                    <figcaption>
+                                        <span class="album-name">NOV</span>
+                                        <small class="release-date">OCT 18,2020</small>
+                                    </figcaption>
+                                </figure>
+                                <div class="latest-release__card__right">
+                                    <span>
+                                        <i class="fab fa-spotify"></i>
+                                    </span>
+                                    <span class="latest-release__playtime">3:59</span>
+                                </div>
+                            </li>
+                            <li class="latest-release__card">
+                                <figure class="latest-release__card__left">
+                                    <a href="./single-playlist.html"><img src="./images/Dil-Bechara1-2-1.jpg"
+                                            alt=""></a>
+                                    <figcaption>
+                                        <span class="album-name">Dil Bechara</span>
+                                        <small class="release-date">Jan 09,2019</small>
+                                    </figcaption>
+                                </figure>
+                                <div class="latest-release__card__right">
+                                    <span>
+                                        <i class="fab fa-spotify"></i>
+                                    </span>
+                                    <span class="latest-release__playtime">5:14</span>
+                                </div>
+                            </li>
+                            <li class="latest-release__card">
+                                <figure class="latest-release__card__left">
+                                    <a href="./single-playlist.html"><img src="./images/Shershaah-6.jpg" alt=""></a>
+                                    <figcaption>
+                                        <span class="album-name">Shershah</span>
+                                        <small class="release-date">SEP 29,2021</small>
+                                    </figcaption>
+                                </figure>
+                                <div class="latest-release__card__right">
+                                    <span>
+                                        <i class="fab fa-spotify"></i>
+                                    </span>
+                                    <span class="latest-release__playtime">6:44</span>
+                                </div>
+                            </li>
+                            <li class="latest-release__card">
+                                <figure class="latest-release__card__left">
+                                    <a href="./single-playlist.html"><img src="./images/2-states.jpg" alt=""></a>
+                                    <figcaption>
+                                        <span class="album-name">2 States</span>
+                                        <small class="release-date">AUG 11,2017</small>
+                                    </figcaption>
+                                </figure>
+                                <div class="latest-release__card__right">
+                                    <span>
+                                        <i class="fab fa-spotify"></i>
+                                    </span>
+                                    <span class="latest-release__playtime">5:44</span>
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+                <div id="popular-artists">
+                    <h5 class="section-heading">Popular Artists</h6>
+                        <ul class="popular-artists-container">
+                            <li class="popular-artists__item">
+                                <a href="./single-playlist.html">
+                                    <figure>
+                                        <img src="./images/lady-singer-1.jpg" alt="">
+                                    </figure>
+                                    <span>Ed Sheeran</span>
+                                </a>
+                            </li>
+                            <li class="popular-artists__item">
+                                <a href="./single-playlist.html">
+                                    <figure>
+                                        <img src="./images/lady-singer-2.jpg" alt="">
+                                    </figure>
+                                    <span>Ed Sheeran</span>
+                                </a>
+                            </li>
+                            <li class="popular-artists__item">
+                                <a href="./single-playlist.html">
+                                    <figure>
+                                        <img src="./images/lady-singer.jpg" alt="">
+                                    </figure>
+                                    <span>Ed Sheeran</span>
+                                </a>
+                            </li>
+                            <li class="popular-artists__item">
+                                <a href="./single-playlist.html">
+                                    <figure>
+                                        <img src="./images/singer-5.jpg" alt="">
+                                    </figure>
+                                    <span>Ed Sheeran</span>
+                                </a>
+                            </li>
+                            <li class="popular-artists__item">
+                                <a href="./single-playlist.html">
+                                    <figure>
+                                        <img src="./images/singer-6.jpg" alt="">
+                                    </figure>
+                                    <span>Ed Sheeran</span>
+                                </a>
+                            </li>
+                            <li class="popular-artists__item">
+                                <a href="./single-playlist.html">
+                                    <figure>
+                                        <img src="./images/singer-4.jpg" alt="">
+                                    </figure>
+                                    <span>Ed Sheeran</span>
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+                <div id="stations">
+                    <h5 class="section-heading">Stations</h5>
+                    <ul class="stations-container section-container">
+                        <li class="stations__item">
+                            <a href="./single-playlist.html">
+                                <figure>
+                                    <img src="./images/romance.jpg" alt="">
+                                    <figcaption>Love</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="stations__item">
+                            <a href="./single-playlist.html">
+                                <figure>
+                                    <img src="./images/retro-car.jpg" alt="">
+                                    <figcaption>Retro</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="stations__item">
+                            <a href="./single-playlist.html">
+                                <figure>
+                                    <img src="./images/jorik-kleen-iKuT7niw8vE-unsplash.jpg" alt="">
+                                    <figcaption>Party</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="stations__item">
+                            <a href="./single-playlist.html">
+                                <figure>
+                                    <img src="./images/chill.jpg" alt="">
+                                    <figcaption>Chill</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="stations__item">
+                            <a href="./single-playlist.html">
+                                <figure>
+                                    <img src="./images/workout.jpg" alt="">
+                                    <figcaption>Workout</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="stations__item">
+                            <a href="./single-playlist.html">
+                                <figure>
+                                    <img src="./images/rock-music.jpg" alt="">
+                                    <figcaption>Rock</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="stations__item">
+                            <a href="./single-playlist.html">
+                                <figure>
+                                    <img src="./images/taylor-NeTf7NGXrtc-unsplash.jpg" alt="">
+                                    <figcaption>Pop</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="mood">
+                    <ul class="mood-container">
+                        <li class="mood__item">
+                            <a href="single-playlist.html">
+                                <figure>
+                                    <img src="./images/krish.jpg" alt="">
+                                    <figcaption>Party</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="mood__item">
+                            <a href="single-playlist.html">
+                                <figure>
+                                    <img src="./images/pexels-cottonbro-7088040.jpg" alt="">
+                                    <figcaption>Electronic</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="mood__item">
+                            <a href="single-playlist.html">
+                                <figure>
+                                    <img src="./images/road-trip.jpg" alt="">
+                                    <figcaption>Road Trip</figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="latest-english" class="latest-lan">
+                    <h5 class="section-heading">Latest English</h5>
+                    <ul class="latest-lan-container">
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/wallpaper2you_82082.jpg" alt="">
+                                <figcaption> <span>Superman</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/spiderman.jpg" alt="">
+                                <figcaption> <span>Spiderman</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/iron-man.jpg" alt="">
+                                <figcaption> <span>Iron Man</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/titanic.jpg" alt="">
+                                <figcaption> <span>Titanic</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/wallpaper2you_82082.jpg" alt="">
+                                <figcaption> <span>Superman</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/wonder-women.jpg" alt="">
+                                <figcaption> <span>Wonder Women</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="latest-hindi" class="latest-lan">
+                    <h5 class="section-heading">Latest Hindi</h5>
+                    <ul class="latest-lan-container">
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/krish.jpg" alt="">
+                                <figcaption> <span>Krish</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/tune-mary-entry.jpg" alt="">
+                                <figcaption> <span>Gunday</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/ddlj.jpg" alt="">
+                                <figcaption> <span>DDLJ</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/2-states.jpg" alt="">
+                                <figcaption> <span>2 States</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/Shershaah-6.jpg" alt="">
+                                <figcaption> <span>Shershah</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                        <li class="latest-lan-item">
+                            <a href="./single-playlist.html" <figure>
+                                <img src="./images/ranzana.jpg" alt="">
+                                <figcaption> <span>Ranzana</span> <span>AUG 11, 2017</span> </figcaption>
+                                </figure>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <aside class="container">
+            <section id="aside-header">
+                <label for="playlist">Playlists</label>
+                <select name="playlist" id="playlist">
+                    <option value="favourites">Favourites</option>
+                    <option value="my-playlist">Retro Bollywood</option>
+                    <option value="my-playlist">Trending</option>
+                </select>
+            </section>
+            <ul class="aside-body">
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>01</span>
+                        <a href="./single-playlist.html"><img src="./images/ranzana.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>02</span>
+                        <a href="./single-playlist.html"><img src="./images/krish.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>03</span>
+                        <a href="./single-playlist.html"><img src="./images/Shershaah-6.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>04</span>
+                        <a href="./single-playlist.html"><img src="./images/ranzana.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>05</span>
+                        <a href="./single-playlist.html"><img src="./images/krish.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+                <li class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>06</span>
+                        <a href="./single-playlist.html"><img src="./images/Shershaah-6.jpg" alt="Song"></a>
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </li>
+            </ul>
+        </aside>
+        <footer class="center">
+            <figure>
+                <div class="aside-body__card">
+                    <div class="aside-body__card__left">
+                        <span>01</span>
+                        <img src="./images/ranzana.jpg" alt="Song">
+                        <div>
+                            <h6>Ranzana</h6>
+                            <small>Ranzana</small>
+                        </div>
+                    </div>
+                    <span class="aside-body__card__right">
+                        <i class="far fa-heart fa-1x"></i>
+                    </span>
+                </div>
+                <audio controls src="./songs/Raanjhanaa.mp3">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+            </figure>
+        </footer>
+    </div>
+</body>
+</html>
